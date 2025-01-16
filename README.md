@@ -67,7 +67,6 @@ The application will be available at [http://localhost:3000](http://localhost:30
 2. Enter the **Annual Investment** amount.
 3. Specify the **Expected Return** (as a percentage).
 4. Enter the investment **Duration** in months.
-5. Click the **Calculate** button to see the projected value of your investment.
 
 ---
 
@@ -80,7 +79,7 @@ The application will be available at [http://localhost:3000](http://localhost:30
 | Expected Return    | 5%            |
 | Duration (Months)  | 60            |
 
-Upon clicking the "Calculate" button, the application will display the projected value of the investment after the specified duration.
+As soon as you enter the data, the application will display the projected value of the investment after the specified duration.
 
 ---
 
