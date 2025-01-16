@@ -6,7 +6,7 @@ import { useState } from "react";
 function App() {
   const [userInput, setUserInput] = useState({
     initialInvestment: 10000,
-    annualInvestment: 10000,
+    annualInvestment: 1200,
     expectedReturn: 6,
     duration: 12,
   });
@@ -17,11 +17,15 @@ function App() {
     });
   };
 
+  let isInputValid = userInput.duration >= 1;
   return (
     <div>
       <Header />
       <UserInput onChange={handleChange} userInput={userInput} />
-      <Results userInput={userInput} />
+      {!isInputValid && (
+        <p className="center">Please enter a duration greater than zero</p>
+      )}
+      {isInputValid && <Results userInput={userInput} />}
     </div>
   );
 }
