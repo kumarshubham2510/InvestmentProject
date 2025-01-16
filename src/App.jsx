@@ -1,5 +1,5 @@
-import Header from "../InvestmentProject/src/components/Header";
-import UserInput from "../InvestmentProject/src/components/UserInput";
+import Header from "./components/Header";
+import UserInput from "./components/UserInput";
 
 function App() {
   return (
