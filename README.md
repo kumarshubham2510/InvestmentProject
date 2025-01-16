@@ -28,7 +28,7 @@ The application includes a simple interface with input fields for these paramete
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/investment-calculator.git
+   git clone https://github.com/kumarshubham2510/InvestmentProject.git
    ```
 2. Navigate to the project directory:
    ```bash
