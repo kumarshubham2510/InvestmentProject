@@ -1,4 +1,4 @@
-# Investment Calculator
+# Magic of Compounding Tool
 
 This is a React-based investment calculator project that allows users to estimate the growth of their investments based on the following input parameters:
 
